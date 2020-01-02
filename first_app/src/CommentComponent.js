@@ -14,7 +14,7 @@ const CommentComponent = () => {
           <div className="metadata">
             <span className="date"> {faker.date.weekday()}</span>
           </div>
-          <div className="text">{faker.random.words()}</div>
+          <div className="text">{faker.random.word()}</div>
         </div>
       </div>
     </div>

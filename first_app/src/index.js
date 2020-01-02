@@ -1,12 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import CommentComponent from "./CommentComponent";
+import ApprovalCard from "./ApprovalCard";
+// import CommentComponent from "./CommentComponent";
 const App = () => {
   return (
     <div>
-      <CommentComponent />
-      <CommentComponent />
-      <CommentComponent />
+      <ApprovalCard />
+      <ApprovalCard />
+      <ApprovalCard />
     </div>
   );
 };
