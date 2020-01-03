@@ -7,7 +7,7 @@ const ApprovalCard = () => {
         alignContent: "center",
         width: "300px",
         border: "1px solid black",
-        borderRadius: "10px",
+        borderRadius: "5px",
         margin: "10px",
         overflow: "hidden"
       }}
