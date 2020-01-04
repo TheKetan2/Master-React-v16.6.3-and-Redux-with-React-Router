@@ -15,3 +15,10 @@ h1 {
   bottom: 10px;
   right: 10px;
 }
+
+.sun {
+  color: orange;
+}
+.snowflake {
+  color: rgb(42, 240, 240);
+}
