@@ -27,26 +27,26 @@ const SeasonDisplay = props => {
   return (
     <div>
       <i
-        style={{ position: "absolute", top: "10px", left: "10px" }}
+        // style={{ position: "absolute", top: "10px", left: "10px" }}
         className={`${seasonConfig.iconName} icon massive left`}
       />
       <h1
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          height: "100vh"
-        }}
+      // style={{
+      //   display: "flex",
+      //   justifyContent: "center",
+      //   alignItems: "center",
+      //   height: "100vh"
+      // }}
       >
         {seasonConfig.text}
       </h1>
       <i
-        style={{
-          position: "absolute",
-          bottom: "10px",
-          right: "10px",
-          textAlign: "center"
-        }}
+        // style={{
+        //   position: "absolute",
+        //   bottom: "10px",
+        //   right: "10px",
+        //   textAlign: "center"
+        // }}
         className={`${seasonConfig.iconName} icon massive right`}
       />
     </div>
