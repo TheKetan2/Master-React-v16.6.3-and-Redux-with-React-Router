@@ -27,7 +27,7 @@ class App extends React.Component {
     return (
       <div>
         {!this.state.errorMsg && !this.state.lat ? (
-          <Spinner />
+          <Spinner msg={"Fetching location data..."} />
         ) : (
           <SeasonDisplay lat={this.state.lat} />
         )}
