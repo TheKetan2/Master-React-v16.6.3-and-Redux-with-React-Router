@@ -1,3 +1,13 @@
+## YouTube App
+
+- Used of axios
+- YouTube API's to collect data
+- semantic ui for styling the app
+
+## Screen Capture
+
+![alt text](assets/screen.gif)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
