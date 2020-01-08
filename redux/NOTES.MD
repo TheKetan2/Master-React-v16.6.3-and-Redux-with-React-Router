@@ -1,3 +1,3 @@
 ## Redux Cycle
 
-[Action-Creator] -> [Action] -> [Dispatch] -> [Reducers] -> [State]
+Action-Creator -> Action -> Dispatch -> Reducers -> State
