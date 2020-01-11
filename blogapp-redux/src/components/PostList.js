@@ -2,11 +2,11 @@ import React, { Component } from "react";
 
 import { connect } from "react-redux";
 import { fetchPosts, fetchUsers } from "../actions";
+import UserHeader from "./UserHeader";
 
 class PostList extends Component {
   componentDidMount() {
     this.props.fetchPosts();
-    this.props.fetchUsers();
   }
 
   renderList() {
@@ -18,13 +18,8 @@ class PostList extends Component {
             <div className="description">
               <h2>{post.title}</h2>
               <p>{post.body}</p>
-              <h3>
-                {`User: ${this.props.users
-                  .filter(user => user.id === post.userId)
-                  .map(u => u.name)}
-                `}
-              </h3>
             </div>
+            <UserHeader userId={post.userId} />
           </div>
         </div>
       );
@@ -32,13 +27,13 @@ class PostList extends Component {
   }
 
   render() {
-    console.log("from postlist:", this.props.posts);
+    // console.log("from postlist:", this.props.posts);
     return <div className="ui relaxed divided list">{this.renderList()}</div>;
   }
 }
 
 const mapStateToProps = state => {
-  return { posts: state.posts, users: state.users };
+  return { posts: state.posts };
 };
 
 export default connect(mapStateToProps, { fetchPosts, fetchUsers })(PostList);
