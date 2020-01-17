@@ -1,3 +1,11 @@
+## Topics covered
+
+- React Router
+- Google Sign in
+- Semantic UI
+- Firebase
+- CRUD Functionality
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
