@@ -1,6 +1,6 @@
 ## Topics covered
 
-- React Router
+- React Router Dom
 - Google Sign in
 - Semantic UI
 - Firebase
