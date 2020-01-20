@@ -1,5 +1,17 @@
 import React from "react";
+import { connect } from "react-redux";
+import reducers from "../../reducers";
+const StreamList = props => {
+  return (
+    <div>
+      <h2>StreamList</h2>
+      User Id: {props.userId}
+    </div>
+  );
+};
 
-export default function StreamList() {
-  return <div>StreamList</div>;
-}
+const mapStateToProps = state => {
+  return { isSignedIn: state.auth.isSignedIn, userId: state.auth.userId };
+};
+
+export default connect(mapStateToProps)(StreamList);

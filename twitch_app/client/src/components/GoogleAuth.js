@@ -25,7 +25,7 @@ class GoogleAuth extends Component {
     // this.auth = window.gapi.auth2.getAuthInstance();
     // this.setState({ isSignedIn: this.auth.isSignedIn.get() });
     if (isSignedIn) {
-      this.props.signIn();
+      this.props.signIn(this.auth.currentUser.get().getId());
     } else {
       this.props.signOut();
     }
@@ -58,12 +58,16 @@ class GoogleAuth extends Component {
   }
 
   render() {
-    return <div>{this.renderAuthButton()}</div>;
+    return (
+      <div>
+        <div>{this.renderAuthButton()}</div>
+      </div>
+    );
   }
 }
 
 const mapStateToProps = state => {
-  return { isSignedIn: state.auth.isSignedIn };
+  return { isSignedIn: state.auth.isSignedIn, userId: state.auth.userId };
 };
 
 export default connect(mapStateToProps, { signIn, signOut })(GoogleAuth);
