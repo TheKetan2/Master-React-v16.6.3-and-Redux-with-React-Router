@@ -1,6 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
-import reducers from "../../reducers";
+// import reducers from "../../reducers";
 const StreamList = props => {
   return (
     <div>
