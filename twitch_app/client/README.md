@@ -1,6 +1,8 @@
 ## Topics covered
 
 - React Router Dom
+- Redux
+- Redux Form
 - Google Sign in
 - Semantic UI
 - Firebase
