@@ -7,8 +7,8 @@ class StreamCreate extends Component {
     return (
       <div className="field">
         <label>{label}</label>
-        <input {...input} />
-        <div>{meta.error}</div>
+        <input {...input} autoComplete="off" />
+        {meta.touched ? <div>{meta.error}</div> : null}
       </div>
     );
   }
