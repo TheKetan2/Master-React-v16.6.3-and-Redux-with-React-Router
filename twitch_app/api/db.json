@@ -1,26 +1,6 @@
 {
   "streams": [
     {
-      "title": "Billionaire",
-      "description": "Future business magnet",
-      "id": 1
-    },
-    {
-      "title": "jkjkjk",
-      "description": "kjkk",
-      "id": 2
-    },
-    {
-      "title": "jkjkjk",
-      "description": "kjkk",
-      "id": 3
-    },
-    {
-      "title": "its working!",
-      "description": "dammit",
-      "id": 4
-    },
-    {
       "title": "this is new stream with user id",
       "description": "This is awesome stream which also has an user id",
       "userId": "117226050684063146086",
