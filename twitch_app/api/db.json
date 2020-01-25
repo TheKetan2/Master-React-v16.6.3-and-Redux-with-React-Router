@@ -1,7 +1,8 @@
 {
   "streams": [
     {
-      "ketan": "Billionaire",
+      "title": "Billionaire",
+      "description": "Future business magnet",
       "id": 1
     },
     {
@@ -18,6 +19,30 @@
       "title": "its working!",
       "description": "dammit",
       "id": 4
+    },
+    {
+      "title": "this is new stream with user id",
+      "description": "This is awesome stream which also has an user id",
+      "userId": "117226050684063146086",
+      "id": 5
+    },
+    {
+      "title": "this is new stream with user id",
+      "description": "This is awesome stream which also has an user id",
+      "userId": "117226050684063146086",
+      "id": 6
+    },
+    {
+      "title": "Latest Stream",
+      "description": "In this stream we will learn about how to dominate the world.",
+      "userId": "117226050684063146086",
+      "id": 7
+    },
+    {
+      "title": "This is going to be awesome ",
+      "description": "Programmatic routing using custom history object",
+      "userId": "117226050684063146086",
+      "id": 8
     }
   ]
 }
