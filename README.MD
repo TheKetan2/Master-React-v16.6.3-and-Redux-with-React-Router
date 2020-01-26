@@ -1,3 +1,5 @@
+### These are the projects completed while completing Stephen's React-Redux course
+
 ## Image App
 
 ![alt text](image_app/assets/screen.gif)
