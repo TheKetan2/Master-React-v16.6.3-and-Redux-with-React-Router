@@ -8,7 +8,7 @@
 
 ![alt text](seasons_app/assets/screen.gif)
 
-### Twitc
+### Twitch App
 
 ![alt text](twitch_app/client/screen/screen.gif)
 
