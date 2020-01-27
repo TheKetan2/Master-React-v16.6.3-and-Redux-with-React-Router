@@ -4,6 +4,10 @@
 - Redux Vs Context API
 - Provider - Consumer
 
+## Screen Cast
+
+![alt text](screen/screen.gif)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
