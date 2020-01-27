@@ -5,7 +5,7 @@ export default class Field extends Component {
   static contextType = LanguageContext;
 
   render() {
-    const text = this.context === "english" ? "Name" : "Shubh Naam";
+    const text = this.context.language === "english" ? "Name" : "Shubh Naam";
     return (
       <React.Fragment>
         <label>{text}</label>
